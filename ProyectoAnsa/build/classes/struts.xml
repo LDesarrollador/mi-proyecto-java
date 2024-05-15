@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Fundation //DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org.//dtds/struts-2.3.dtd">
+<struts>
+	<package name="demo" extends="struts-default">
+
+
+		<action name="cargaMantemientoProductoXML" class="Action.ProductoAction"
+			method="cargaIngresoProductoAction">
+			<result name="success">/ingresoproducto.jsp</result>
+			<result name="error">/intranet.jsp</result>
+		</action>
+
+		<action name="ingresoProductoXML" class="Action.ProductoAction"
+			method="ingresoProductoAction">
+			<result name="success">/mantenimientoproducto.jsp</result>
+			<result name="error">/mantenimientoproducto.jsp</result>
+		</action>
+
+		<action name="ingresoventaXML" class="Action.VentaAction"
+			method="ingresoVentaAction">
+			<result name="success">/registroventa.jsp</result>
+			<result name="error">/registroventa.jsp</result>
+		</action>
+		<action name="ingresodetalleventaXML" class="Action.VentaAction"
+			method="ingresoDetalleVentaAction">
+			<result name="success">/registroventa.jsp</result>
+			<result name="error">/registroventa.jsp</result>
+		</action>
+		<action name="ingresoClienteXML" class="Action.ClienteAction"
+			method="ingresoClienteAction">
+			<result name="success">/mantenimientocliente.jsp</result>
+			<result name="error">/mantenimientocliente.jsp</result>
+		</action>
+		<action name="cargalistProductoXML" method="cargaMantenimientoProductoAction"
+			class="Action.ProductoAction">
+			<result name="success">/registroventa.jsp</result>
+			<result name="error">/registroventa.jsp</result>
+		</action>
+		<action name="cargaMantemientoProductoXML" method="cargaMantenimientoProductoAction"
+			class="Action.ProductoAction">
+			<result name="success">/mantenimientoproducto.jsp</result>
+			<result name="error">/intranet.jsp</result>
+		</action>
+
+		<action name="cargaMantemientoClienteXML" method="cargaMantenimientoClienteAction"
+			class="Action.ClienteAction">
+			<result name="success">/registroventa.jsp</result>
+			<result name="error">/menuUs.jps</result>
+		</action>
+		<action name="cargaMantemientoclientesXML" method="cargaMantenimientoClienteAction"
+			class="Action.ClienteAction">
+			<result name="success">/mantenimientocliente.jsp</result>
+			<result name="error">/menuUs.jps</result>
+		</action>
+		<action name="busquedaProductoNombresXML" class="Action.ProductoAction"
+			method="busquedaNombresAction">
+			<result name="success">/mantenimientoproducto.jsp</result>
+			<result name="error">/mantenimientoproducto.jsp</result>
+		</action>
+		<action name="buscaclienteObjXML" class="Action.buscaClienteAction"
+			method="busquedaClienteIdObjAction">
+			<result name="success">/mantenimientocliente.jsp</result>
+			<result name="error">/mantenimientocliente.jsp</result>
+		</action>
+		<action name="busquedaProductoXML" method="busquedaNombresAction"
+			class="Action.ClienteAction">
+			<result name="success">/registroventa.jsp</result>
+			<result name="error">/registroventa.jsp</result>
+		</action>
+		<action name="busquedaClienteDniXML" class="Action.ClienteAction"
+			method="busquedaclienteDniAction">
+			<result name="success">/registroventa.jsp</result>
+			<result name="error">/registroventa.jsp</result>
+		</action>
+
+		<action name="busquedaClienteNombreXML" class="Action.ClienteAction"
+			method="busquedaclienteNombreAction">
+			<result name="success">/mantenimientocliente.jsp</result>
+			<result name="error">/mantenimientocliente.jsp</result>
+		</action>
+		<action name="actualizaclienteXML" class="Action.ClienteAction"
+			method="actualizaClienteAction">
+			<result name="success">/mantenimientocliente.jsp</result>
+			<result name="error">/mantenimientocliente.jsp</result>
+		</action>
+	</package>
+</struts>

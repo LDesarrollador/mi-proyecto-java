@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+D:\programacion\en eclipse\PIT-Ansa\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3298682916.index
+3781180715.index
+2094485336.index
+536755049.index
+2355078688.index
+3716930501.index

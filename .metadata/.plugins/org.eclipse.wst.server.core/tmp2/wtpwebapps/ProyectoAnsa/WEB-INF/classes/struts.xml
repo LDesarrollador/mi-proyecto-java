@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Fundation //DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org.//dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="demo" extends="struts-default">
+		<action name="validaUsuarioXML" class="action.UsuarioAction"
+			method="ValidaUsuarioAction">
+			<result name="success">/menuUs.jsp</result>
+			<result name="error">/index.jsp</result>
+			<result name="none">/menuAd.jsp</result>
+		</action>
+
+		<action name="cerrarSesionXML" class="action.UsuarioAction"
+			method="cerrarSesionUsuario">
+			<result name="success">/index.jsp</result>
+		</action>
+		<action name="cargaMantemientoClienteXML" class="action.ClienteAction"
+			method="cargaMantenimientoClienteAction">
+			<result name="success">/registroventa.jsp</result>
+			<result name="ERROR">/menuUs.jsp</result>
+		</action>
+		<action name="busquedaClienteDniXML" class="action.ClienteAction"
+			method="busquedaClienteDniAction">
+			<result name="success">/registroventa.jsp</result>
+			<result name="error">/registroventa.jsp</result>
+		</action>
+		<action name="busquedaProductoXML" class="action.ClienteAction"
+			method="busquedaNombresAction">
+			<result name="success">/registroventa.jsp</result>
+			<result name="error">/registroventa.jsp</result>
+		</action>
+		<action name="ingresoventaXML" class="action.VentaAction"
+			method="ingresoVentaAction">
+			<result name="success">/registroventa.jsp</result>
+			<result name="error">/registroventa.jsp</result>
+		</action>
+		<action name="ingresodetalleventaXML" class="action.VentaAction"
+			method="ingresoDetalleVentaAction">
+			<result name="success">/registroventa.jsp</result>
+			<result name="error">/registroventa.jsp</result>
+		</action>
+
+		<action name="cargaMantemientoclientesXML" class="action.ClienteAction"
+			method="cargaMantenimientoClienteAction2">
+			<result name="success">/mantenimientocliente.jsp</result>
+			<result name="error">/menuUs.jsp</result>
+		</action>
+		<action name="ingresoClienteXML" class="action.ClienteAction"
+			method="ingresoClienteAction">
+			<result name="success">/mantenimientocliente.jsp</result>
+			<result name="error">/mantenimientocliente.jsp</result>
+		</action>
+		<action name="busquedaClienteNombreXML" class="action.ClienteAction"
+			method="busquedaclienteNombreAction">
+			<result name="success">/mantenimientocliente.jsp</result>
+			<result name="error">/mantenimientocliente.jsp</result>
+		</action>
+		<action name="buscaclienteObjXML" class="action.ClienteAction"
+			method="busquedaClienteIdObjAction">
+			<result name="success">/actualizacliente.jsp</result>
+			<result name="error">/mantenimientocliente.jsp</result>
+		</action>
+
+      <action name="actualizaclienteXML" class="action.ClienteAction"
+			method="actualizaClienteAction">
+			<result name="success">/mantenimientocliente.jsp</result>
+			<result name="error">/mantenimientocliente.jsp</result>
+		</action>
+		<action name="cargalistProductoXML" class="action.ProductoAction"
+		method="cargaMantenimientoProductoAction">
+		<result name="success">/registroventa.jsp</result>
+		<result name="error">/registroventa.jsp</result>
+		</action>
+		<action name="cargalistProductoXML" class="action.ProductoAction"
+		method="cargaMantenimientoProductoAction">
+		<result name="success">/registroventa.jsp</result>
+		<result name="error">/registroventa.jsp</result>
+		</action>
+		
+		<action name="cargaMantemientoVentaXML" class="action.DetalleAction"
+		method="cargamantenimientodetalleventaaction">
+		<result name="success">/detalleventa.jsp</result>
+		<result name="error">/menuAd.jsp</result>
+		</action>
+		<action name="busquedaclienteIddXML" class="action.ClienteAction"
+		method="busquedaClienteDniAction">
+		<result name="success">/detalleventa.jsp</result>
+		<result name="error">/detalleventa.jsp</result>
+		</action>
+		<action name="busquedausuarioIddXML" class="action.UsuarioAction"
+		method="busquedaUsuarioDniAction">
+		<result name="success">/detalleventa.jsp</result>
+		<result name="error">/detalleventa.jsp</result>
+		</action>
+		
+  </package>
+</struts>

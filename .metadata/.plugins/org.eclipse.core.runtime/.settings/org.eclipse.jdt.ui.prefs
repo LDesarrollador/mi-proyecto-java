@@ -1,0 +1,21 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/><rhs name\="java.sql.SQLException"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="Model.Producto"><rhs name\="Model.Producto"/></lhs><lhs name\="Model.Tipo"><rhs name\="Model.Tipo"/></lhs><lhs name\="Persistencia.ProductoDao"><rhs name\="Persistencia.ProductoDao"/></lhs><lhs name\="Service.TipoInterfaz"><rhs name\="Persistencia.TipoDao"/></lhs><lhs name\="Persistencia.TipoDao"><rhs name\="Persistencia.TipoDao"/></lhs><lhs name\="Model.Categoria"><rhs name\="Model.Categoria"/></lhs><lhs name\="Service.Productointerfaz"><rhs name\="Persistencia.ProductoDao"/></lhs><lhs name\="Service.CategoriaInterfaz"><rhs name\="Persistencia.CategoriaDao"/></lhs><lhs name\="Persistencia.CategoriaDao"><rhs name\="Persistencia.CategoriaDao"/></lhs><lhs name\="java.lang.Exception"><rhs name\="java.sql.SQLException"/></lhs><lhs name\="java.lang.Throwable"><rhs name\="java.sql.SQLException"/></lhs><lhs name\="java.sql.SQLException"><rhs name\="java.sql.SQLException"/></lhs><lhs name\="Model.cliente"><rhs name\="Model.cliente"/></lhs><lhs name\="Service.ClienteInterfaz"><rhs name\="Persistencia.ClienteDao"/></lhs><lhs name\="Persistencia.ClienteDao"><rhs name\="Persistencia.ClienteDao"/></lhs><lhs name\="Model.Venta"><rhs name\="Model.Venta"/></lhs><lhs name\="Persistencia.VentaDao"><rhs name\="Persistencia.VentaDao"/></lhs><lhs name\="com.opensymphony.xwork2.ActionSupport"><rhs name\="Action.ProductoAction"/><rhs name\="Action.VentaAction"/></lhs><lhs name\="com.opensymphony.xwork2.Action"><rhs name\="Action.ProductoAction"/><rhs name\="Action.VentaAction"/></lhs><lhs name\="com.opensymphony.xwork2.Validateable"><rhs name\="Action.ProductoAction"/><rhs name\="Action.VentaAction"/></lhs><lhs name\="com.opensymphony.xwork2.ValidationAware"><rhs name\="Action.ProductoAction"/><rhs name\="Action.VentaAction"/></lhs><lhs name\="com.opensymphony.xwork2.TextProvider"><rhs name\="Action.ProductoAction"/><rhs name\="Action.VentaAction"/></lhs><lhs name\="com.opensymphony.xwork2.LocaleProvider"><rhs name\="Action.ProductoAction"/><rhs name\="Action.VentaAction"/></lhs><lhs name\="Action.ProductoAction"><rhs name\="Action.ProductoAction"/></lhs><lhs name\="Model.DetalleVenta"><rhs name\="Model.DetalleVenta"/></lhs><lhs name\="Action.VentaAction"><rhs name\="Action.VentaAction"/></lhs></history>
+content_assist_number_of_computers=24
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Consolas|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

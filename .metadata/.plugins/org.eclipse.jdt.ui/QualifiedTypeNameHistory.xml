@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="service.TipoInterfaz"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
+<fullyQualifiedTypeName name="java.sql.CallableStatement"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.Error"/>
+<fullyQualifiedTypeName name="Persistencia.TipoDao"/>
+<fullyQualifiedTypeName name="Model.Tipo"/>
+<fullyQualifiedTypeName name="Service.Productointerfaz"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="Persistencia.Conexion"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="Service.ClienteInterfaz"/>
+<fullyQualifiedTypeName name="org.apache.catalina.connector.ClientAbortException"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="Model.Categoria"/>
+<fullyQualifiedTypeName name="Persistencia.CategoriaDao"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="com.mysql.fabric.xmlrpc.base.Data"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="Service.VentaInterfaz"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Persistencia.VentaDao"/>
+<fullyQualifiedTypeName name="Persistencia.ProductoDao"/>
+<fullyQualifiedTypeName name="Action.ProductoAction"/>
+<fullyQualifiedTypeName name="Model.DetalleVenta"/>
+<fullyQualifiedTypeName name="Model.Venta"/>
+<fullyQualifiedTypeName name="Model.Producto"/>
+<fullyQualifiedTypeName name="Action.VentaAction"/>
+<fullyQualifiedTypeName name="Persistencia.ClienteDao"/>
+<fullyQualifiedTypeName name="Model.cliente"/>
+</qualifiedTypeNameHistroy>

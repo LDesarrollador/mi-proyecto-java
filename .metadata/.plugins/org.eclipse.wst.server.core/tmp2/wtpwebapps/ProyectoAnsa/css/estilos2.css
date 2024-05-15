@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background: #e6eecc url(../imagenes/f.jpg) repeat top left;
+	background-repeat: no-repeat;
+}
+
+div {
+	height: 100px;
+	width: 50px;
+	margin: auto;
+	background-color: transparent;
+}
+
+article {
+	height: 500px;
+	width: 500px;
+	float: left;
+	background-color: transparent;
+}
+
+abbr {
+	height: 500px;
+	width: 400px;
+	float: right;
+	background-color: transparent;
+}
